@@ -1,23 +1,23 @@
-package aghazadeh.ahmad.utility.binding;
+package com.xomorod.utility.binding;
 
 import android.databinding.BindingAdapter;
 
-import android.databinding.tool.reflection.SdkUtil;
+
+
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
-import android.os.Build;
+
 import android.support.annotation.Nullable;
 import android.support.v7.graphics.Palette;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
+
 import android.widget.TextView;
 
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
-
-import aghazadeh.ahmad.utility.logic.Project;
+import com.xomorod.utility.logic.Project;
 
 
 /**

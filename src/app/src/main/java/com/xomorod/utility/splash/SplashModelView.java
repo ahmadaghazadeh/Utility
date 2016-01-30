@@ -1,4 +1,4 @@
-package aghazadeh.ahmad.utility.splash;
+package com.xomorod.utility.splash;
 
 
 import android.databinding.BaseObservable;

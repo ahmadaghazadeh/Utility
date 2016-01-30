@@ -6,11 +6,11 @@
 
         <variable
             name="model"
-            type="aghazadeh.ahmad.utility.splash.SplashModelView" />
+            type="com.xomorod.utility.splash.SplashModelView" />
 
         <variable
             name="handler"
-            type="aghazadeh.ahmad.utility.splash.SplashPresenter" />
+            type="com.xomorod.utility.splash.SplashPresenter" />
     </data>
 
     <RelativeLayout

@@ -1,4 +1,4 @@
-package aghazadeh.ahmad.utility.logic;
+package com.xomorod.utility.logic;
 
 import android.content.Context;
 import android.content.res.AssetManager;
