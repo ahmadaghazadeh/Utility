@@ -16,6 +16,13 @@ public class SplashModelView extends BaseObservable implements ISplashView {
     private int color;
 
 
+    public SplashModelView( String appName ,Drawable appLogo,int color)
+    {
+        this.appName=appName;
+        this.appLogo=appLogo;
+        this.color=color;
+    }
+
     @Override
     public void setAppName(String appName) {
         this.appName=appName;

@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
+
 apply plugin: 'com.android.databinding'
 
 
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
-    resourcePrefix "utility__"
+
 
     defaultConfig {
         minSdkVersion 10

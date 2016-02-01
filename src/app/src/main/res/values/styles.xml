@@ -7,6 +7,26 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <declare-styleable name="ImageView">
+        <attr name="resId" format="reference"/>
+        <attr name="addTextChangedListener"  />
+        <attr name="imageUrl"  />
+        <attr name="error"  format="string" />
+        <attr name="paletteResId" format="reference" />
+    </declare-styleable>
+
+    <attr name="text_font" format="string"/>
+
+
+    <declare-styleable name="TextView">
+        <attr name="text_font"/>
+    </declare-styleable>
+    <declare-styleable name="EditText">
+        <attr name="text_font"/>
+    </declare-styleable>
+
+
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

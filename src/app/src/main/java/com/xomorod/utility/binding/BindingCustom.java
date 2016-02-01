@@ -45,11 +45,13 @@ public class BindingCustom {
         view.setImageResource(resId);
     }
 
-    @BindingAdapter("fontName")
-    public static void setFontName(TextView view, @Nullable String fontName) {
+    @BindingAdapter("text_font")
+    public static void setFontPersian(TextView view, @Nullable String fontName) {
         String fontPath = "/fonts/" + fontName;
         view.setTypeface(Project.getTypeFace(view.getContext(), fontPath));
     }
+
+
 
 
     @BindingAdapter({"imageUrl", "error", "paletteResId"})
