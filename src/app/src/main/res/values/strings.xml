@@ -1,19 +1,19 @@
 <resources>
     <string name="app_name">Utility</string>
 
-        <string name="font_persian_BARABICS">BARABICS</string>
-        <string name="font_persian_BDAVAT">BDAVAT</string>
-        <string name="font_persian_BHAMID">BHAMID</string>
-        <string name="font_persian_BHOMA">BHOMA</string>
-        <string name="font_persian_BKAMRAN">BKAMRAN</string>
-        <string name="font_persian_BKARIM">BKARIM</string>
-        <string name="font_persian_BLOTUS">BLOTUS</string>
-        <string name="font_persian_BNAZANIN">BNAZANIN</string>
-        <string name="font_persian_BSEPIDEH">BSEPIDEH</string>
-        <string name="font_persian_BYEKAN">BYEKAN</string>
-        <string name="font_persian_DROIDNASKH">DROIDNASKH</string>
+    <string name="font_persian_BARABICS">BARABICS</string>
+    <string name="font_persian_BDAVAT">BDAVAT</string>
+    <string name="font_persian_BHAMID">BHAMID</string>
+    <string name="font_persian_BHOMA">BHOMA</string>
+    <string name="font_persian_BKAMRAN">BKAMRAN</string>
+    <string name="font_persian_BKARIM">BKARIM</string>
+    <string name="font_persian_BLOTUS">BLOTUS</string>
+    <string name="font_persian_BNAZANIN">BNAZANIN</string>
+    <string name="font_persian_BSEPIDEH">BSEPIDEH</string>
+    <string name="font_persian_BYEKAN">BYEKAN</string>
+    <string name="font_persian_DROIDNASKH">DROIDNASKH</string>
 
-        <string name="font_english_GOTHIC">GOTHIC</string>
-        <string name="font_english_CANDARA">CANDARA</string>
+    <string name="font_english_GOTHIC">GOTHIC</string>
+    <string name="font_english_CANDARA">CANDARA</string>
 
 </resources>
