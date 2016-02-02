@@ -9,8 +9,8 @@
 
     <declare-styleable name="ImageView">
         <attr name="resId" format="reference"/>
-        <attr name="addTextChangedListener"  />
-        <attr name="imageUrl"  />
+        <attr name="addTextChangedListener" format="string" />
+        <attr name="imageUrl" format="string" />
         <attr name="error"  format="string" />
         <attr name="paletteResId" format="reference" />
     </declare-styleable>

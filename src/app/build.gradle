@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-
 apply plugin: 'com.android.databinding'
 
 
@@ -13,6 +12,7 @@ android {
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -22,6 +22,7 @@ android {
     }
 }
 
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
@@ -30,29 +31,5 @@ dependencies {
     compile 'com.jakewharton:butterknife:7.0.1'
     compile 'com.squareup.picasso:picasso:2.5.2'
 
-}
-
-ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'easier'
-
-    publishedGroupId = 'com.xomorod'
-    libraryName = 'easier'
-    artifact = 'easier'
-
-    libraryDescription = 'Gather together to accelerate the development of useful libraries'
-
-    siteUrl = 'https://github.com/ahmadaghazadeh/Utility'
-    gitUrl = 'https://github.com/ahmadaghazadeh/Utility.git'
-
-    libraryVersion = '1.1'
-
-    developerId = 'ahmad-aghazadeh-a'
-    developerName = 'ahmad aghazadeh'
-    developerEmail = 'ahmad.aghazadeh.a@gmail.com'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
 }
 

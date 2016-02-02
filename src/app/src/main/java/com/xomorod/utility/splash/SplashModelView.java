@@ -3,8 +3,9 @@ package com.xomorod.utility.splash;
 
 import android.databinding.BaseObservable;
 import android.graphics.drawable.Drawable;
+import android.support.annotation.Nullable;
 
-
+import com.xomorod.utility.R;
 
 
 /**
@@ -13,14 +14,14 @@ import android.graphics.drawable.Drawable;
 public class SplashModelView extends BaseObservable implements ISplashView {
     private  String appName;
     private Drawable appLogo;
-    private int color;
+    @Nullable
+    private int color = R.color.md_grey_300 ;
 
 
-    public SplashModelView( String appName ,Drawable appLogo,int color)
+    public SplashModelView( String appName ,Drawable appLogo )
     {
         this.appName=appName;
         this.appLogo=appLogo;
-        this.color=color;
     }
 
     @Override

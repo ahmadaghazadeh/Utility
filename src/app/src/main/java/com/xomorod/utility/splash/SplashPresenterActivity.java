@@ -29,7 +29,6 @@ public  abstract  class SplashPresenterActivity extends Activity implements  ISp
         binding =
                 DataBindingUtil.setContentView(this, R.layout.activity_splash);
 
-        splashModelView = new SplashModelView();
         setData(splashModelView,mainActivity);
 
 
@@ -43,7 +42,6 @@ public  abstract  class SplashPresenterActivity extends Activity implements  ISp
                 }
             }
         }, timeStartMainActivity);
-
 
     }
 
