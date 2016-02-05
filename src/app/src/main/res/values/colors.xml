@@ -10,23 +10,23 @@
 
     <color name="primaryColor_pink">@color/md_pink_500</color>
     <color name="primaryColorDark_pink">@color/md_pink_700</color>
-    <color name="primaryAccent_pink">@color/md_green_700</color>
+    <color name="primaryAccent_pink">@color/md_blue_700</color>
 
     <color name="primaryColor_purple">@color/md_purple_500</color>
     <color name="primaryColorDark_purple">@color/md_purple_700</color>
-    <color name="primaryAccent_purple">@color/md_light_green_700</color>
+    <color name="primaryAccent_purple">@color/md_amber_700</color>
 
     <color name="primaryColor_deep_purple">@color/md_deep_purple_500</color>
     <color name="primaryColorDark_deep_purple">@color/md_deep_purple_700</color>
-    <color name="primaryAccent_deep_purple">@color/md_lime_700</color>
+    <color name="primaryAccent_deep_purple">@color/md_orange_600</color>
 
     <color name="primaryColor_indigo">@color/md_indigo_500</color>
     <color name="primaryColorDark_indigo">@color/md_indigo_700</color>
-    <color name="primaryAccent_indigo">@color/md_yellow_700</color>
+    <color name="primaryAccent_indigo">@color/md_deep_orange_700</color>
 
     <color name="primaryColor_light_blue">@color/md_light_blue_500</color>
     <color name="primaryColorDark_light_blue">@color/md_light_blue_700</color>
-    <color name="primaryAccent_light_blue">@color/md_amber_700</color>
+    <color name="primaryAccent_light_blue">@color/md_deep_orange_700</color>
 
     <color name="primaryColor_cyan">@color/md_cyan_500</color>
     <color name="primaryColorDark_cyan">@color/md_cyan_700</color>
@@ -38,15 +38,15 @@
 
     <color name="primaryColor_green">@color/md_green_500</color>
     <color name="primaryColorDark_green">@color/md_green_700</color>
-    <color name="primaryAccent_green">@color/md_brown_700</color>
+    <color name="primaryAccent_green">@color/md_pink_700</color>
 
     <color name="primaryColor_light_green">@color/md_light_green_500</color>
     <color name="primaryColorDark_light_green">@color/md_light_green_700</color>
-    <color name="primaryAccent_light_green">@color/md_grey_700</color>
+    <color name="primaryAccent_light_green">@color/md_pink_A700</color>
 
     <color name="primaryColor_lime">@color/md_lime_500</color>
     <color name="primaryColorDark_lime">@color/md_lime_700</color>
-    <color name="primaryAccent_lime">@color/md_blue_grey_700</color>
+    <color name="primaryAccent_lime">@color/md_pink_A700</color>
 
     <color name="primaryColor_yellow">@color/md_yellow_500</color>
     <color name="primaryColorDark_yellow">@color/md_yellow_700</color>
@@ -58,23 +58,23 @@
 
     <color name="primaryColor_orange">@color/md_orange_500</color>
     <color name="primaryColorDark_orange">@color/md_orange_700</color>
-    <color name="primaryAccent_orange">@color/md_purple_A700</color>
+    <color name="primaryAccent_orange">@color/md_pink_700</color>
 
     <color name="primaryColor_deep_orange">@color/md_deep_orange_500</color>
     <color name="primaryColorDark_deep_orange">@color/md_deep_orange_700</color>
-    <color name="primaryAccent_deep_orange">@color/md_deep_purple_A700</color>
+    <color name="primaryAccent_deep_orange">@color/md_pink_700</color>
 
     <color name="primaryColor_brown">@color/md_brown_500</color>
     <color name="primaryColorDark_brown">@color/md_brown_700</color>
-    <color name="primaryAccent_brown">@color/md_indigo_A700</color>
+    <color name="primaryAccent_brown">@color/md_pink_700</color>
 
     <color name="primaryColor_grey">@color/md_grey_500</color>
     <color name="primaryColorDark_grey">@color/md_grey_700</color>
-    <color name="primaryAccent_grey">@color/md_blue_700</color>
+    <color name="primaryAccent_grey">@color/md_pink_700</color>
 
     <color name="primaryColor_blue_grey">@color/md_blue_grey_500</color>
     <color name="primaryColorDark_blue_grey">@color/md_blue_grey_700</color>
-    <color name="primaryAccent_blue_grey">@color/md_light_blue_700</color>
+    <color name="primaryAccent_blue_grey">@color/md_pink_700</color>
 
 
 

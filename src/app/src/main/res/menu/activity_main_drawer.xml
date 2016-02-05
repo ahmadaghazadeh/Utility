@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:visible="false"
+                android:id="@+id/nav_more_apps"
+                android:icon="@drawable/ic_apps_24dp"
+                android:title="@string/more_apps" />
+
+            <item
+                android:id="@+id/nav_send_comment"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/send_comment" />
+
+            <item
+                android:id="@+id/nav_tools"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/tools" />
+
+
+        </menu>
+    </item>
+
+</menu>

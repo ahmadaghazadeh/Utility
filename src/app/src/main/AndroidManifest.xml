@@ -7,8 +7,21 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/ThemeNoActionBar">
+        <activity
+            android:name=".activities.common.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.blue.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+        <activity
+            android:theme="@style/Theme.blue"
+            android:name=".activities.common.SettingsActivity"
+            android:label="@string/tools"/>
     </application>
 
 </manifest>

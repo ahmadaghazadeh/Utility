@@ -6,13 +6,12 @@
 
         <variable
             name="model"
-            type="com.xomorod.utility.splash.SplashModelView" />
+            type="com.xomorod.utility.activities.splash.SplashModelView" />
 
         <variable
             name="handler"
-            type="com.xomorod.utility.splash.SplashPresenterActivity" />
+            type="com.xomorod.utility.activities.splash.SplashPresenterActivity" />
     </data>
-
 
     <RelativeLayout
         android:layout_width="match_parent"

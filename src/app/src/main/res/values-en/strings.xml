@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Utility</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="prefs_theme_key">theme</string>
+
+    <string-array  name="ThemeList">
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Deep Purple</item>
+        <item>Indigo</item>
+        <item>Light Blue</item>
+        <item>Cyan</item>
+        <item>Teal</item>
+        <item>Green</item>
+        <item>Light Green</item>
+        <item>Lime</item>
+        <item>Yellow</item>
+        <item>Amber</item>
+        <item>Orange</item>
+        <item>Deep Orange</item>
+        <item>Brown</item>
+        <item>Grey</item>
+        <item>Blue Grey</item>
+    </string-array >
+    <string name="pref_header_font">Font Manager</string>
+    <string name="pref_header_general">More Setting</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_header_tehme">Theme Manager</string>
+    <string name="send_comment">Send Comment</string>
+
+    <string name="tools">Tools</string>
+    <string name="pref_language">Language</string>
+    <string name="pref_title_language">Language Selected</string>
+    <string name="more_apps">More App</string>
+
+
+</resources>

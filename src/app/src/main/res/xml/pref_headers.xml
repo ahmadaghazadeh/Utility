@@ -1,0 +1,26 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.xomorod.utility.activities.common.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/pref_header_general" />
+
+    <header
+    android:fragment="com.xomorod.utility.activities.common.SettingsActivity$FontPreferenceFragment"
+    android:icon="@drawable/ic_font_24dp"
+    android:title="@string/pref_header_font" />
+
+    <header
+        android:fragment="com.xomorod.utility.activities.common.SettingsActivity$ThemePreferenceFragment"
+        android:icon="@drawable/ic_theme_24dp"
+        android:title="@string/pref_header_tehme" />
+
+
+    <header
+        android:fragment="com.xomorod.utility.activities.common.SettingsActivity$LanguagePreferenceFragment"
+        android:icon="@drawable/ic_language_24dp"
+        android:title="@string/pref_language" />
+
+</preference-headers>

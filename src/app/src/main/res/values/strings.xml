@@ -1,19 +1,133 @@
-<resources>
-    <string name="app_name">Utility</string>
+﻿<resources>
 
-    <string name="font_persian_BARABICS">BARABICS</string>
-    <string name="font_persian_BDAVAT">BDAVAT</string>
-    <string name="font_persian_BHAMID">BHAMID</string>
-    <string name="font_persian_BHOMA">BHOMA</string>
-    <string name="font_persian_BKAMRAN">BKAMRAN</string>
-    <string name="font_persian_BKARIM">BKARIM</string>
-    <string name="font_persian_BLOTUS">BLOTUS</string>
-    <string name="font_persian_BNAZANIN">BNAZANIN</string>
-    <string name="font_persian_BSEPIDEH">BSEPIDEH</string>
-    <string name="font_persian_BYEKAN">BYEKAN</string>
-    <string name="font_persian_DROIDNASKH">DROIDNASKH</string>
+    <string-array  name="ThemeListEn">
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Deep Purple</item>
+        <item>Indigo</item>
+        <item>Light Blue</item>
+        <item>Cyan</item>
+        <item>Teal</item>
+        <item>Green</item>
+        <item>Light Green</item>
+        <item>Lime</item>
+        <item>Yellow</item>
+        <item>Amber</item>
+        <item>Orange</item>
+        <item>Deep Orange</item>
+        <item>Brown</item>
+        <item>Grey</item>
+        <item>Blue Grey</item>
+    </string-array >
 
-    <string name="font_english_GOTHIC">GOTHIC</string>
-    <string name="font_english_CANDARA">CANDARA</string>
+    <string name="title_activity_main">MainActivity</string>
+
+
+     <string name="app_name">Utility</string>
+
+    <string-array  name="FontListEn">
+        <item>BARABICS</item>
+        <item>BDAVAT</item>
+        <item>BHAMID</item>
+        <item>BHOMA</item>
+        <item>BKAMRAN</item>
+        <item>BKARIM</item>
+        <item>BLOTUS</item>
+        <item>BNAZANIN</item>
+        <item>BSEPIDEH</item>
+        <item>BYEKAN</item>
+        <item>DROIDNASKH</item>
+        <item>GOTHIC</item>
+        <item>CANDARA</item>
+    </string-array >
+
+
+    <string-array  name="FontList">
+        <item>B Arabics</item>
+        <item>B Davat</item>
+        <item>B Hamid</item>
+        <item>B Homa</item>
+        <item>B Karman</item>
+        <item>B Karim</item>
+        <item>B Lotus</item>
+        <item>B Nazanin</item>
+        <item>B Speideh</item>
+        <item>B Yekan</item>
+        <item>Droid Naskh</item>
+        <item>Gothic</item>
+        <item>Candara</item>
+    </string-array >
+
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="prefs_theme_key" translatable="false">prefs_theme_key</string>
+    <string name="prefs_language_key" translatable="false">prefs_language_key</string>
+    <string name="prefs_font_key" translatable="false">prefs_font_key</string>
+    <string name="pref_header_general">More Setting</string>
+
+    <string name="pref_title_social_recommendations" translatable="false">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations" translatable="false">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name" translatable="false">Display name</string>
+    <string name="pref_default_display_name" translatable="false">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages" translatable="false">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync" translatable="false">Data &amp; sync</string>
+
+    <string name="pref_title_language">Language Selected</string>
+    <string-array name="pref_language_titles">
+        <item>فارسی</item>
+        <item>English</item>
+     </string-array>
+    <string-array name="pref_language_values">
+        <item>fa</item>
+        <item>en</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings" translatable="false">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications" translatable="false">New message notifications</string>
+
+    <string name="pref_title_ringtone" translatable="false">Ringtone</string>
+    <string name="pref_ringtone_silent" translatable="false">Silent</string>
+
+    <string name="pref_title_vibrate" translatable="false">Vibrate</string>
+    <string name="send_comment">send_comment</string>
+
+    <string name="tools">Tools</string>
+    <string name="pref_header_tehme">Theme Manager</string>
+    <string name="pref_language">Language</string>
+    <string name="pref_header_font">Font Manager</string>
+    <string name="more_apps">More App</string>
+    <string name="font_sample_persian" translatable="false">بیشتر انسانها، زمانی نا امید میشوند که چیزی به موفقیت آنها باقی نمانده</string>
+    <string name="font_sample_english" translatable="false">Don"t be evil</string>
+
 
 </resources>
