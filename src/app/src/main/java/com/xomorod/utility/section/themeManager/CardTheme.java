@@ -1,4 +1,4 @@
-package com.xomorod.utility.fragments.themeManager;
+package com.xomorod.utility.section.themeManager;
 
 import android.app.Activity;
 import android.content.Context;

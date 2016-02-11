@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.xomorod.utility">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,17 +14,22 @@
         <activity
             android:name=".activities.common.MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/Theme.blue.NoActionBar" >
+            android:theme="@style/Theme.blue.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            </activity>
+        </activity>
         <activity
-            android:theme="@style/Theme.blue"
             android:name=".activities.common.SettingsActivity"
-            android:label="@string/tools"/>
+            android:label="@string/tools"
+            android:theme="@style/Theme.blue" />
+        <activity
+            android:label="@string/more_apps"
+            android:theme="@style/Theme.blue"
+            android:name=".activities.common.MoreApplicationActivity">
+        </activity>
     </application>
 
 </manifest>

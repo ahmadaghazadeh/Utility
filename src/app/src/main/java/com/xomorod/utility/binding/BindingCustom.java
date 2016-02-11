@@ -31,15 +31,16 @@ public class BindingCustom {
 
     @BindingAdapter("android:background")
     public static void setBackgroundColor(View view, @NonNull int color) {
-
-         view.setBackgroundColor(view.getResources().getColor(color));
+        view.setBackgroundColor(view.getResources().getColor(color));
     }
 
-    @BindingAdapter("backgroundColor")
+
+
+    @BindingAdapter("backgroundColorName")
     public static void setBackgrandColor(View view, @Nullable String color) {
-        int colorId= view.getResources().getIdentifier(color,"color",view.getContext().getPackageName());
-        view.setBackgroundColor(view.getResources().getColor(colorId));
-    }
+             int colorId= view.getResources().getIdentifier(color,"color",view.getContext().getPackageName());
+            view.setBackgroundColor(view.getResources().getColor(colorId));
+     }
 
     @BindingAdapter("android:src")
     public static void setImageDrawable(ImageView view, Drawable drawable) {

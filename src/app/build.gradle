@@ -8,9 +8,6 @@ android {
     buildToolsVersion "23.0.2"
 
 
-
-
-
     defaultConfig {
         minSdkVersion 10
         targetSdkVersion 23
@@ -42,5 +39,14 @@ dependencies {
     compile 'com.android.support:design:23.1.1'
     compile 'com.android.support:support-v4:23.1.1'
     compile 'de.greenrobot:eventbus:2.4.0'
+    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
+    compile('com.github.afollestad.material-dialogs:core:0.8.5.4@aar') {
+        transitive = true
+    }
+    compile('de.keyboardsurfer.android.widget:crouton:1.8.5@aar') {
+        exclude group: 'com.google.android', module: 'support-v4'
+    }
+
 }
 

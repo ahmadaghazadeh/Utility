@@ -1,4 +1,4 @@
-package com.xomorod.utility.fragments.themeManager;
+package com.xomorod.utility.section.themeManager;
 
 /**
  * Created by 890683 on 1/24/2016.
@@ -9,9 +9,12 @@ public class ThemeData {
 
     private String color ;
 
-    public ThemeData(String themeTitle, String color ) {
+    private int selectedColor ;
+
+    public ThemeData(String themeTitle, String color,int selectedColor ) {
         this.themeTitle = themeTitle;
         this.color = color;
+        this.selectedColor = selectedColor;
     }
 
     public String getThemeTitle() {
@@ -45,5 +48,13 @@ public class ThemeData {
 
     public String getBackgroundColor() {
         return "primaryColorDark_"+getColor();
+    }
+
+    public int getSelectedColor() {
+        return selectedColor;
+    }
+
+    public void setSelectedColor(int selectedColor) {
+        this.selectedColor = selectedColor;
     }
 }

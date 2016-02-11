@@ -1,4 +1,4 @@
-package com.xomorod.utility.fragments.common;
+package com.xomorod.utility.section.common;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;

@@ -32,10 +32,10 @@ import com.xomorod.utility.R;
 import com.xomorod.utility.business.CardViewType;
 import com.xomorod.utility.business.MessageEvent;
 import com.xomorod.utility.business.TitleSection;
-import com.xomorod.utility.fragments.fontManager.CardFont;
-import com.xomorod.utility.fragments.fontManager.FontData;
-import com.xomorod.utility.fragments.themeManager.CardTheme;
-import com.xomorod.utility.fragments.themeManager.ThemeData;
+import com.xomorod.utility.section.fontManager.CardFont;
+import com.xomorod.utility.section.fontManager.FontData;
+import com.xomorod.utility.section.themeManager.CardTheme;
+import com.xomorod.utility.section.themeManager.ThemeData;
 import com.xomorod.utility.logic.C;
 import com.xomorod.utility.logic.Project;
 
@@ -258,11 +258,6 @@ public class SettingsActivity extends AppCompatPreferenceActivity  {
 
             String[] themeListEng = getResources().getStringArray(R.array.ThemeListEn);
             String[] themeList = getResources().getStringArray(R.array.ThemeList);
-            for (int i = 0; i < themeList.length; i++) {
-                ThemeData themeData=new ThemeData(themeList[i],themeListEng[i]);
-                CardTheme cardTheme=new CardTheme(getActivity(),themeData);
-                adapter.add(TitleSection.Default, cardTheme);
-            }
             com.xomorod.utility.data.PreferenceManager pm= Project.getPref(view.getContext());
             int lastFirstVisiblePosition= pm.get(C.Fields.ThemeSelectedPos, 0);
             if(lastFirstVisiblePosition >0)
@@ -270,6 +265,25 @@ public class SettingsActivity extends AppCompatPreferenceActivity  {
                 mStaggeredLayoutManager.scrollToPositionWithOffset(lastFirstVisiblePosition, 20);
 
             }
+            for (int i = 0; i < themeList.length; i++) {
+                ThemeData themeData;
+                int color= R.color.md_white_1000 ;
+                if(lastFirstVisiblePosition==i)
+                    color= R.color.md_indigo_50 ;
+                if(themeListEng[i].startsWith(C.Fields.rtl)) {
+
+                    themeData=new ThemeData(themeList[i],themeListEng[i],color);
+                }
+                else
+                {
+                    themeData=new ThemeData(themeList[i],themeListEng[i],color);
+                }
+
+
+                CardTheme cardTheme=new CardTheme(getActivity(),themeData);
+                adapter.add(TitleSection.Default, cardTheme);
+            }
+
         }
 
         @Override
@@ -326,7 +340,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity  {
 
                     int color= R.color.md_white_1000 ;
                     if(lastFirstVisiblePosition==i)
-                        color= R.color.md_pink_100 ;
+                        color= R.color.md_indigo_50 ;
                     if(themeListEng[i].startsWith(C.Fields.rtl)) {
 
                         fontData=new FontData(themeListEng[i],themeListEng[i].replace(C.Fields.rtl,"").replace("_"," ").replace(".ttf",""),getString(R.string.font_sample_persian),color);

@@ -7,7 +7,7 @@
 
        <variable
             name="data"
-            type="com.xomorod.utility.fragments.themeManager.ThemeData" />
+            type="com.xomorod.utility.section.themeManager.ThemeData" />
 
     </data>
 
@@ -19,6 +19,7 @@
         card_view:cardElevation="10dp">
 
         <LinearLayout
+            android:background="@{data.selectedColor}"
             android:orientation="vertical"
             android:id="@+id/card_holder"
             android:layout_width="match_parent"
@@ -26,7 +27,7 @@
 
             <TextView
                  android:gravity="center"
-                android:text="\@{data.themeTitle}"
+                android:text="@{data.themeTitle}"
                 android:id="@+id/txtTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -51,7 +52,7 @@
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:maxLines="3"
-                    card_view:backgroundColor="@{data.primary}"
+                    card_view:backgroundColorName="@{data.primary}"
                    />
 
                 <TextView
@@ -63,7 +64,7 @@
                     android:layout_margin="10dp"
                     android:textSize="30sp"
                     android:padding="8dp"
-                    card_view:backgroundColor="@{data.primaryDark}"/>
+                    card_view:backgroundColorName="@{data.primaryDark}"/>
 
                 <TextView
                      android:id="@+id/colorAccent"
@@ -74,7 +75,7 @@
                     android:layout_margin="10dp"
                     android:textSize="30sp"
                     android:padding="8dp"
-                    card_view:backgroundColor="@{data.primaryAccent}"
+                    card_view:backgroundColorName="@{data.primaryAccent}"
                     />
 
                 <TextView
@@ -86,8 +87,7 @@
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:maxLines="3"
-
-                    card_view:backgroundColor="@{data.backgroundColor}" />
+                    card_view:backgroundColorName="@{data.backgroundColor}" />
 
             </LinearLayout>
         </LinearLayout>

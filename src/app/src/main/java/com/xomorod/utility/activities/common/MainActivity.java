@@ -45,6 +45,8 @@ public class MainActivity extends BaseNoActionBarActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+
+
     }
 
     @Override
@@ -80,6 +82,7 @@ public class MainActivity extends BaseNoActionBarActivity
            startActivityForResult(new Intent(MainActivity.this,SettingsActivity.class),0);
         } else if (id == R.id.nav_more_apps) {
 
+            startActivityForResult(new Intent(MainActivity.this,MoreApplicationActivity.class),0);
         } else if (id == R.id.nav_send_comment) {
 
         }

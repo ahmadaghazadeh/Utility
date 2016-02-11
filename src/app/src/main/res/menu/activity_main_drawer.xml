@@ -7,7 +7,7 @@
 
     <item android:title="Communicate">
         <menu>
-            <item android:visible="false"
+            <item
                 android:id="@+id/nav_more_apps"
                 android:icon="@drawable/ic_apps_24dp"
                 android:title="@string/more_apps" />

@@ -1,4 +1,4 @@
-package com.xomorod.utility.fragments.fontManager;
+package com.xomorod.utility.section.fontManager;
 
 /**
  * Created by 890683 on 1/24/2016.

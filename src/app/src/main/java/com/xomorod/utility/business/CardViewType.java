@@ -8,6 +8,8 @@ import jp.satorufujiwara.binder.ViewType;
 public enum CardViewType implements ViewType {
 
     Theme,
+    Font,
+    App,
     Empty;
     @Override
     public int viewType() {

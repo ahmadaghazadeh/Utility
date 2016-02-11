@@ -9,7 +9,10 @@ import android.graphics.Typeface;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.util.DisplayMetrics;
+import android.widget.Toast;
 
+import com.afollestad.materialdialogs.GravityEnum;
+import com.afollestad.materialdialogs.MaterialDialog;
 import com.xomorod.utility.R;
 import com.xomorod.utility.data.PreferenceManager;
 
@@ -52,7 +55,7 @@ public class Project {
         if (!typeFaceList.containsKey(fontPath)) {
             try {
                 AssetManager mgr = context.getAssets();
-                 Typeface tf = Typeface.createFromAsset(mgr, fontPath);
+                Typeface tf = Typeface.createFromAsset(mgr, fontPath);
                 typeFaceList.put(fontPath, tf);
             } catch (Exception ex) {
                 ex.getMessage();
@@ -97,5 +100,23 @@ public class Project {
 
     public static PreferenceManager getPref(Context context) {
         return new PreferenceManager(context);
+    }
+    public static void Toast(Context context,String str)
+    {
+        Toast.makeText(context,str,Toast.LENGTH_SHORT).show();
+    }
+    public static  MaterialDialog getMaterialDialogProgress(Context context)
+    {
+        GravityEnum gravity=GravityEnum.values()[ context.getResources().getInteger(R.integer.)];
+        return new MaterialDialog.Builder(context)
+                .title(R.string.progress_dialog)
+                .content(R.string.please_wait)
+                .titleGravity(gravity)
+                .contentGravity(gravity)
+                .btnStackedGravity(gravity)
+                .itemsGravity(gravity)
+                .buttonsGravity(gravity)
+                .progress(true, 0)
+                .show();
     }
 }

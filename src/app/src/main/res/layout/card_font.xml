@@ -7,7 +7,7 @@
 
        <variable
             name="data"
-            type="com.xomorod.utility.fragments.fontManager.FontData" />
+            type="com.xomorod.utility.section.fontManager.FontData" />
 
     </data>
 

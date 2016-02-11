@@ -18,7 +18,9 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-         updateTheme();
+         if(getSupportActionBar()!=null)
+             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        updateTheme();
     }
      public void updateTheme() {
 

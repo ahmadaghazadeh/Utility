@@ -1,6 +1,6 @@
 ﻿<resources>
 
-    <string-array  name="ThemeListEn">
+    <string-array name="ThemeListEn">
         <item>Red</item>
         <item>Pink</item>
         <item>Purple</item>
@@ -19,14 +19,14 @@
         <item>Brown</item>
         <item>Grey</item>
         <item>Blue Grey</item>
-    </string-array >
+    </string-array>
 
     <string name="title_activity_main">MainActivity</string>
 
 
-     <string name="app_name">Utility</string>
+    <string name="app_name">Utility</string>
 
-    <string-array  name="FontListEn">
+    <string-array name="FontListEn">
         <item>BARABICS</item>
         <item>BDAVAT</item>
         <item>BHAMID</item>
@@ -40,10 +40,10 @@
         <item>DROIDNASKH</item>
         <item>GOTHIC</item>
         <item>CANDARA</item>
-    </string-array >
+    </string-array>
 
 
-    <string-array  name="FontList">
+    <string-array name="FontList">
         <item>B Arabics</item>
         <item>B Davat</item>
         <item>B Hamid</item>
@@ -57,8 +57,7 @@
         <item>Droid Naskh</item>
         <item>Gothic</item>
         <item>Candara</item>
-    </string-array >
-
+    </string-array>
 
 
     <string name="action_settings">Settings</string>
@@ -102,7 +101,7 @@
     <string-array name="pref_language_titles">
         <item>فارسی</item>
         <item>English</item>
-     </string-array>
+    </string-array>
     <string-array name="pref_language_values">
         <item>fa</item>
         <item>en</item>
@@ -128,6 +127,8 @@
     <string name="more_apps">More App</string>
     <string name="font_sample_persian" translatable="false">بیشتر انسانها، زمانی نا امید میشوند که چیزی به موفقیت آنها باقی نمانده</string>
     <string name="font_sample_english" translatable="false">Don"t be evil</string>
+    <string name="progress_dialog">در حال ارتباط با سرور</string>
+    <string name="please_wait">لطفا منتظر بمانید</string>
 
 
 </resources>

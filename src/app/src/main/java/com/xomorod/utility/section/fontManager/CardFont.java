@@ -1,4 +1,4 @@
-package com.xomorod.utility.fragments.fontManager;
+package com.xomorod.utility.section.fontManager;
 
 import android.app.Activity;
 import android.content.Context;
